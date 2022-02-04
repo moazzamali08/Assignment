@@ -1,0 +1,25 @@
+{
+  "name": "cypress-package",
+  "version": "1.0.0",
+  "description": "This is cypress practice",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run",
+    "test": "This is Cypress Practice",
+    "cy:open": "npx cypress open"
+  },
+  "author": "Sadaf Munir",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.3.0",
+    "cypress": "^9.2.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "dependencies": {
+    "@types/mocha": "^9.1.0",
+    "randexp": "^0.5.3"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
