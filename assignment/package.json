@@ -6,7 +6,8 @@
   "scripts": {
     "cy:run": "cypress run",
     "test": "This is Cypress Assignment",
-    "cy:open": "npx cypress open"
+    "cy:open": "npx cypress open",
+    "cy:run:browser": "cypress run --browser chrome"
   },
   "author": "Sadaf Munir",
   "license": "ISC",
