@@ -17,10 +17,14 @@ Feature: Testing DeinBett WebSite
         Then User will be successfully logged in
 
 
-    Scenario: Adding items to Wishlist
+    Scenario: Adding items to Wishlist and then basket
         Given User is successfully logged in
         When User adds 5 items in wishlist
         And View the wishlist
-        Then Items are successfully added to the wishlist
+        And Add zipcode
+        And Move items from wishlist to basket
+        Then Items are successfully added to the basket
+
+
 
 

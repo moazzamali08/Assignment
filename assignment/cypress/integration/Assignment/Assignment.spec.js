@@ -66,7 +66,7 @@ Then('User will be successfully logged in', () => {
 
 })
 
-//Scenario: Adding items to Wishlist
+//Scenario: Adding items to Wishlist and then basket
 
 Given('User is successfully logged in', () => {
     obj.verifyregistration()
@@ -79,8 +79,17 @@ When('User adds 5 items in wishlist', () => {
 
 And('View the wishlist', () => {
     obj.goToWishlist()
+    obj.verifyItemsCount()
 })
 
-Then('Items are successfully added to the wishlist', () => {
+And('Add zipcode', () => {
+    obj.addZipCode()
+})
 
+And('Move items from wishlist to basket', () => {
+    obj.itemToBasket()
+})
+
+Then('Items are successfully added to the basket', () => {
+    obj.verifyItemsCountinBasket()
 })
