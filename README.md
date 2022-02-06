@@ -27,6 +27,7 @@ npm run cy:run
 ### Running the test in Chrome Browser (Headless)
 ---
 npm run cy:run:chrome
+
 ---
 
 ### For Running using Docker
@@ -42,6 +43,7 @@ Note: In Dockerfile,  cypress/base:17.3.0 is used (https://hub.docker.com/r/cypr
 
 ---
 docker build -t cypress
+
 ---
 
 ---
