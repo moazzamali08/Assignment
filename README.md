@@ -1,5 +1,5 @@
 # Testing  
----
+
 DeinBett Assignment - Using Cypress, Cucumber and Gherkin
 
 ## For Running Locally
@@ -28,7 +28,7 @@ npm run cy:run
 npm run cy:run:chrome
 ```
 
----
+
 ## For Running using Docker
 ---
 #### Pre-Requisites
