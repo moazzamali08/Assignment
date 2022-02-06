@@ -9,7 +9,6 @@ Download Node from the following link: https://nodejs.org/en/download/
 
 
 ### Install Cypress
-
 ```
 npm install cypress --save-dev
 ```
@@ -25,13 +24,12 @@ npm run cy:run
 ```
 
 ### Running the test in Chrome Browser (Headless)
----
+```
 npm run cy:run:chrome
-
----
+```
 
 ### For Running using Docker
-
+---
 #### Pre-Requisites
 
 Docker should be installed on the system
@@ -46,4 +44,3 @@ docker build -t cypress
 
 ---
 
----
