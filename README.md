@@ -2,7 +2,7 @@
 ---
 DeinBett Assignment - Using Cypress, Cucumber and Gherkin
 
-### For Running Locally
+## For Running Locally
 ---
 #### Pre-Requisites
 Download Node from the following link: https://nodejs.org/en/download/
@@ -28,19 +28,18 @@ npm run cy:run
 npm run cy:run:chrome
 ```
 
-### For Running using Docker
+---
+## For Running using Docker
 ---
 #### Pre-Requisites
 
 Docker should be installed on the system
 
-
 ### Run all tests in Docker
 
 Note: In Dockerfile,  cypress/base:17.3.0 is used (https://hub.docker.com/r/cypress/base)
+```
+docker build -t cypress .
+```
 
----
-docker build -t cypress
-
----
 
