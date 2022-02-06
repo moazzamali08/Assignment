@@ -175,7 +175,8 @@ class objects {
 
     }
     verifyItemsCountinBasket() {
-        cy.get('class="cartEntry cartEntry--cart"').should('have.length', '5')
+        cy.get('[class=cartEntry__closeButton').should('have.length', '5')
+        
     }
 }
 

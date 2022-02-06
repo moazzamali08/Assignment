@@ -1,11 +1,11 @@
 {
   "name": "cypress-package",
   "version": "1.0.0",
-  "description": "This is cypress practice",
+  "description": "This is cypress Assignment",
   "main": "index.js",
   "scripts": {
     "cy:run": "cypress run",
-    "test": "This is Cypress Practice",
+    "test": "This is Cypress Assignment",
     "cy:open": "npx cypress open"
   },
   "author": "Sadaf Munir",
