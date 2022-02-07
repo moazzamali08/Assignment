@@ -10,7 +10,7 @@ DeinBett Assignment - Using Cypress, Cucumber and Gherkin
 
 ### Clone Project
 ```
-Run "git clone https://github.com/sadafmunir42/Assignment.git"
+git clone https://github.com/sadafmunir42/Assignment.git
 ```
 
 ### Install Cypress
