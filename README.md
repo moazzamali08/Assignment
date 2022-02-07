@@ -5,10 +5,17 @@ DeinBett Assignment - Using Cypress, Cucumber and Gherkin
 ## For Running Locally
 ---
 #### Pre-Requisites
+- Git should be installed on the system
 - Download Node from the following link: https://nodejs.org/en/download/
-- Open Command Line and Go to Project Directory i.e. /assignment
+
+### Clone Project
+```
+Run "git clone https://github.com/sadafmunir42/Assignment.git"
+```
 
 ### Install Cypress
+- Open Command Line and Go to Project Directory i.e. cd Assignment/assignment
+- Run following commands:
 ```
 npm install cypress --save-dev
 ```
