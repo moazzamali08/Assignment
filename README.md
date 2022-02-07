@@ -34,7 +34,7 @@ npm run cy:run:chrome
 #### Pre-Requisites
 
 - Docker should be installed on the system
-- Open Command Line where Dockerfile is placed
+- Open Command Line and Go to the directory where Dockerfile is placed
 
 ### Run all tests in Docker
 
